@@ -79,7 +79,7 @@ You can build it by issuing the following commands::
     sudo apt-get install gawk util-linux qemu-user-static git p7zip-full python3
     
     git clone https://github.com/guysoft/CustomPiOS.git
-    git clone https://github.com/guysoft/OctoPi.git
+    git clone https://github.com/WEEDO3DTECH/OctoPi.git
     cd OctoPi/src/image
     wget -c --trust-server-names 'https://downloads.raspberrypi.org/raspios_lite_armhf_latest'
     cd ..
