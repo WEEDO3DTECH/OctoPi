@@ -79,7 +79,7 @@ You can build it by issuing the following commands::
     sudo apt-get install gawk util-linux qemu-user-static git p7zip-full python3
     
     git clone https://github.com/guysoft/CustomPiOS.git
-    git clone https://github.com/guysoft/OctoPi.git
+    git clone https://github.com/WEEDO3DTECH/OctoPi.git
     cd OctoPi/src/image
     wget -c --trust-server-names 'https://downloads.raspberrypi.org/raspios_lite_armhf_latest'
     cd ..
@@ -87,53 +87,7 @@ You can build it by issuing the following commands::
     sudo modprobe loop
     sudo bash -x ./build_dist
     
-Building OctoPi Variants
-~~~~~~~~~~~~~~~~~~~~~~~~
 
-OctoPi supports building variants, which are builds with changes from the main release build. An example and other variants are available in `CustomPiOS, folder src/variants/example <https://github.com/guysoft/CustomPiOS/tree/CustomPiOS/src/variants/example>`_.
-
-docker exec -it mydistro_builder::
-
-    sudo docker exec -it mydistro_builder build [Variant]
-
-Or to build a variant inside a container::
-
-    sudo bash -x ./build_dist [Variant]
-    
-Building Using Docker
-~~~~~~~~~~~~~~~~~~~~~~
-`See Building with docker entry in wiki <https://github.com/guysoft/CustomPiOS/wiki/Building-with-Docker>`_
-    
-Building Using Vagrant
-~~~~~~~~~~~~~~~~~~~~~~
-There is a vagrant machine configuration to let build OctoPi in case your build environment behaves differently. Unless you do extra configuration, vagrant must run as root to have nfs folder sync working.
-
-Make sure you have a version of vagrant later than 1.9!
-
-If you are using older versions of Ubuntu/Debian and not using apt-get `from the download page <https://www.vagrantup.com/downloads.html>`_.
-
-To use it::
-    
-    sudo apt-get install vagrant nfs-kernel-server virtualbox
-    sudo vagrant plugin install vagrant-nfs_guest
-    sudo modprobe nfs
-    cd ../OctoPi
-    git clone https://github.com/guysoft/CustomPiOS.git    
-    cd OctoPi/src
-    ../../CustomPiOS/src/update-custompios-paths
-    cd OctoPi/src/vagrant
-    sudo vagrant up
-    run_vagrant_build.sh
-
-After provisioning the machine, its also possible to run a nightly build which updates from devel using::
-
-    cd OctoPi/src/vagrant
-    run_vagrant_build.sh
-    
-To build a variant on the machine simply run::
-
-    cd src/vagrant
-    run_vagrant_build.sh [Variant]
     
 
 Usage

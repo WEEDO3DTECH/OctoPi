@@ -30,7 +30,7 @@ pause
 echo "--- Adding git checkout"
 
 rm -r $OCTOPRINT_FOLDER || true
-git clone https://github.com/foosel/OctoPrint.git $OCTOPRINT_FOLDER
+git clone https://github.com/WEEDO3DTECH/OctoPrint.git $OCTOPRINT_FOLDER
 
 echo "--- Configuring checkout folder in OctoPrint's config.yaml"
 
