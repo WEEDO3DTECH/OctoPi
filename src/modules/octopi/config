@@ -3,6 +3,7 @@
 
 # OctoPrint archive
 [ -n "$OCTOPI_OCTOPRINT_PACKAGE" ] || OCTOPI_OCTOPRINT_PACKAGE="OctoPrint"
+[ -n "$OCTOPI_OCTOPRINT_ARCHIVE" ] || OCTOPI_OCTOPRINT_ARCHIVE="https://weedo.cloud/library/download/download/OctoPrint-1.8.6-py2.py3-none-any.whl"
 [ -n "$OCTOPI_INCLUDE_OCTOPRINT" ] || OCTOPI_INCLUDE_OCTOPRINT=yes
 
 # CuraEngine archive & version
