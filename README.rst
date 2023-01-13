@@ -15,15 +15,11 @@ Where to get it?
 Download the latest stable build via this button:
 
 .. image:: https://i.imgur.com/NvUOGfS.png
-   :target: https://octopi.octoprint.org/latest
+   :target: https://github.com/WEEDO3DTECH/OctoPi/releases/download/v1.8.6/2022-09-22-raspios-bullseye-armhf-lite-eww.tar.xz
 
-Official mirror is `here <https://github.com/guysoft/OctoPi/releases>`_
+Official mirror is `here <https://github.com/WEEDO3DTECH/OctoPi/releases/download/v1.8.6/2022-09-22-raspios-bullseye-armhf-lite-eww.tar.xz>`_
 
-Second mirror is `here <https://octopi.gnethomelinux.com/Distros/OctoPi/>`_
 
-Nightly builds are available `here <http://unofficialpi.org/Distros/OctoPi/nightly/>`_
-
-64bit Nightly builds are available `here <http://unofficialpi.org/Distros/OctoPi/nightly-arm64/>`_
 
 How to use it?
 --------------
