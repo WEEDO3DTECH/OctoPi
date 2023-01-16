@@ -17,7 +17,7 @@ Download the latest stable build via this button:
 .. image:: https://i.imgur.com/NvUOGfS.png
    :target: https://github.com/WEEDO3DTECH/OctoPi/releases/download/v1.8.6/2022-09-22-raspios-bullseye-armhf-lite-eww.tar.xz
 
-Official mirror is `here <https://github.com/WEEDO3DTECH/OctoPi/releases/download/v1.8.6/2022-09-22-raspios-bullseye-armhf-lite-eww.tar.xz>`_
+Official mirror is `here <https://github.com/WEEDO3DTECH/OctoPi/releases/download/v1.8.6/2022-09-22-raspios-bullseye-armhf-lite-eww.xz>`_
 
 
 
